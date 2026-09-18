@@ -281,6 +281,7 @@ body {
   border-radius: var(--radius-sm);
   display: grid;
   place-items: center;
+  overflow: hidden;
   background: color-mix(in srgb, var(--card-accent) 16%, transparent);
   border: 1px solid color-mix(in srgb, var(--card-accent) 40%, transparent);
 }
@@ -289,6 +290,14 @@ body {
   width: 24px;
   height: 24px;
   stroke: var(--card-accent);
+}
+
+.product-card__icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.15);
+  display: block;
 }
 
 .product-card__name {
@@ -506,6 +515,7 @@ body {
   border-radius: var(--radius-md);
   display: grid;
   place-items: center;
+  overflow: hidden;
   background: color-mix(in srgb, var(--panel-accent, var(--signal)) 18%, transparent);
   border: 1px solid color-mix(in srgb, var(--panel-accent, var(--signal)) 45%, transparent);
 }
@@ -514,6 +524,14 @@ body {
   width: 30px;
   height: 30px;
   stroke: var(--panel-accent, var(--signal));
+}
+
+.panel-header__icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.15);
+  display: block;
 }
 
 .panel-header__name {
