@@ -33,6 +33,7 @@
   --c-rappaiz: #ffb020;
   --c-varejo: #9b7bff;
   --c-fiscal: #22c55e;
+  --c-hospedigi: #C9A227;
 
   /* Tipografia */
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
@@ -261,10 +262,11 @@ body {
 }
 
 /* Cada card recebe o "sinal" da sua cor via variável --card-accent */
-.product-card--garagem { --card-accent: var(--c-garagem); }
-.product-card--rappaiz { --card-accent: var(--c-rappaiz); }
-.product-card--varejo  { --card-accent: var(--c-varejo); }
-.product-card--fiscal  { --card-accent: var(--c-fiscal); }
+.product-card--garagem   { --card-accent: var(--c-garagem); }
+.product-card--rappaiz   { --card-accent: var(--c-rappaiz); }
+.product-card--varejo    { --card-accent: var(--c-varejo); }
+.product-card--fiscal    { --card-accent: var(--c-fiscal); }
+.product-card--hospedigi { --card-accent: var(--c-hospedigi); }
 
 .product-card__top {
   display: flex;
